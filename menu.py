@@ -5,11 +5,6 @@ def test():
     print("it works")
     return 0
 
-######################
-#LOREM IPSUM
-######################
-
-
 def UpdateChoice():
     var= v.get()
     if var == 1:
@@ -26,17 +21,17 @@ def start():
     root.quit()
     return text
 
-
-
-
-
-
-
 ###########################################################################################
+#SET DISPLAY
+###########################################################################################
+
+#SET WINDOW
 root= Tk()
 root.geometry("800x600")
+
 root.resizable(width=False, height=False)
 root.update()
+
 #SET MAIN
 main= PanedWindow(root)
 
